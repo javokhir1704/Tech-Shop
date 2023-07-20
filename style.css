@@ -112,3 +112,119 @@ footer ul li span:hover {
   opacity:0.5;
   cursor:pointer;
 }
+
+/*Contact page is right below*/
+
+.contact-header {
+  width:100%;
+  height:max-content;
+  background-color:white;
+ 
+}
+
+.contact-header h1 {
+  
+  font-size: 38px;
+  font-weight: 700;
+  color: #31363b;
+  margin-bottom:20px;
+  text-align:center;
+}
+
+.contact-header p {
+  font-size:18px;
+  margin-bottom:60px;
+  text-align:center;
+  line-height:30px;
+}
+
+.contact-header .container {
+  display:flex;
+  background-color:rgba(118, 120, 119, 0.375);
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.785);
+}
+
+h2 {
+  font-weight:500;
+  margin:10px 0px 50px 0px;;
+  text-align:center;
+}
+
+label {
+  font-weight:800;
+  font-size:18px;
+  margin-bottom:10px;
+  display:block;
+  color:#31363b;
+}
+
+.contact-left {
+  flex-basis:60%;
+  padding:10px;
+}
+
+.contact-right {
+  flex-basis:40%;
+  background-color:#31363b;
+  color:white;
+  padding:30px;
+
+}
+
+.input-row {
+  display:flex;
+  justify-content: space-between;
+  margin-bottom:20px;
+}
+
+.input-row .input-group {
+  flex-basis:45%;
+}
+
+input {
+  width:100%;
+  border:none;
+  border-bottom:1px solid #ccc;
+  outline:none; /*It will create a color outside of a border*/
+  padding: 10px;
+  font-size:15px;
+  
+}
+
+textarea {
+  width:100%;
+  border:none;
+  border:1 solid #ccc;
+  padding:10px;
+}
+
+button {
+  background:#31363b;
+  color:white;
+  border:none;
+  padding:10px 30px;
+  transition:transform 0.15s;
+  border-radius:30px;
+  margin-top:20px;
+}
+
+button:hover {
+  transform:scale(1.4);
+  cursor:pointer;
+}
+
+
+tr td:first-child {
+  padding-right:20px;
+  font-size:18px;
+  font-weight:700;  
+}
+
+tr td {
+  padding-top:40px;
+}
+
+.title-location {
+  font-weight:700;
+}
+

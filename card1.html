@@ -7,7 +7,6 @@
     <title>Home page of Shop</title>
 
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="./styles.css">
 
     <!--Links are for fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,6 +16,37 @@
       rel="stylesheet"
     />
 
+    <style>
+      section {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f5f5f7;
+      }
+
+      .sub-container {
+        width: 100%;
+    height: max-content;
+    border-radius: 20px;
+    background: #fff;
+      }
+
+      .content-div {
+        width:100%;
+        padding:30px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+      }
+
+      .content-div img {
+        width: 300px;
+    object-fit: contain;
+    border-radius: 20px;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -28,30 +58,33 @@
           <span>
             <li><a href="#">Home</a></li>
             <li><a href="index.html">Shop</a></li>
-            <li><a href="./contact.html">Conact</a></li>
+            <li><a href="#">Conact</a></li>
           </span>
         </ul>
       </div>
     </nav>
 
-    <header>
+    <section>
+      <br>
+      <br>
       <div class="container">
-        <h1 class="home-header-title"><b>Welcome To MacBro Family!</b></h1>
-        <br />
-        <br />
-        <img
-          class="home-header-img"
-          src="Images/background-image.png"
-          alt="Background-image"
-        />
+        <div class="sub-container">
+          <div class="content-div">
+            <img src="./Images/first-image.jpg" alt="First-image">
+            <span>--</span>
+            <h1>MacBook Pro 13-inch (2022)</h1>
+            <span>--</span>
+            <h2>Sum: 19459500</h2>
+          </div>
+        </div>
       </div>
-    </header>
+    </section>
 
     <footer>
       <hr />
       <div class="container">
         <ul>
-          <li>Online stores MacBro.uz. All rights reserved.</li>
+          <li>Online stores MacBro.uz. All rights are reserved.</li>
           <li>Developed by <span>Azimov Javokhir</span></li>
         </ul>
       </div>
